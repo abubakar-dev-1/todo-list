@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .btn-all{
+        @apply bg-[#5f5dbd] p-2 px-4 rounded-lg w-2/5 text-white text-sm hover:font-bold
+    }
+    .btn-all:hover{
+        @apply bg-[#2a296b] 
+    }
+}
