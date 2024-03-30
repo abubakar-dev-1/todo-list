@@ -9,4 +9,7 @@
     .btn-all:hover{
         @apply bg-[#2a296b] 
     }
+    .glassEffect{
+        @apply h-full w-full bg-purple-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-40 border border-gray-100
+    }
 }

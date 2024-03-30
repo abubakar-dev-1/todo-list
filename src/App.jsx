@@ -75,7 +75,7 @@ useEffect(() => {
   return (
    <>
     <Navbar/>
-      <div className="container bg-[#9adcec81] md:mx-auto md:my-5 md:p-5 rounded-lg md:min-h-[80vh] md:w-3/4 p-14 my-44">
+      <div className="container glassEffect bg-[#9adcec81] md:mx-auto md:my-5 md:p-5 rounded-lg md:min-h-[80vh] md:w-3/4 p-14 my-44">
        <div className='inputContainer'>
         <h2 className='text-lg font-bold text-center'>Add A Task</h2>
         <div className=' flex gap-5'>
