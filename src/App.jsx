@@ -48,10 +48,6 @@ useEffect(() => {
     saveToLocal()
 
   }
-
-  useEffect(() => {
-    alert("todo added") 
-  },[todo])
   
   const addHandle = () => {
     settodoArr([...todoArr, { id: uuidv4(), todo, isCompleted: false }])
